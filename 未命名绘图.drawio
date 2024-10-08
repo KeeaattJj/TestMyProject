@@ -24,7 +24,10 @@
         <mxCell id="tLU6vOamgJZOyBqF00xu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLU6vOamgJZOyBqF00xu-14" target="tLU6vOamgJZOyBqF00xu-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tLU6vOamgJZOyBqF00xu-14" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Agent&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;根据用户指令采取相应的代理&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="tLU6vOamgJZOyBqF00xu-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLU6vOamgJZOyBqF00xu-14" target="tLU6vOamgJZOyBqF00xu-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-14" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;AgentServer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;根据用户指令采取相应的代理&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="460" y="75" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tLU6vOamgJZOyBqF00xu-15" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="tLU6vOamgJZOyBqF00xu-14">
@@ -32,10 +35,68 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tLU6vOamgJZOyBqF00xu-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;AgentManage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: 等线; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt; background-color: initial;&quot;&gt;服务注册中心，负责服务注册与发现、服务治理&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="tLU6vOamgJZOyBqF00xu-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;AgentManage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify; font-family: 等线; font-size: 10.5pt;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：Agent&lt;/span&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt; background-color: initial;&quot;&gt;注册中心，负责代理注册与发现&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="760" y="75" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tLU6vOamgJZOyBqF00xu-18" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="tLU6vOamgJZOyBqF00xu-17">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLU6vOamgJZOyBqF00xu-20" target="tLU6vOamgJZOyBqF00xu-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-20" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;PromptServer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;根据用户指令采取相应的代理&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-21" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="tLU6vOamgJZOyBqF00xu-20">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLU6vOamgJZOyBqF00xu-14" target="tLU6vOamgJZOyBqF00xu-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="470" as="sourcePoint" />
+            <mxPoint x="610" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tLU6vOamgJZOyBqF00xu-28" target="tLU6vOamgJZOyBqF00xu-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-28" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;EmbeddingServer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;根据用户指令采取相应的代理&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-29" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="tLU6vOamgJZOyBqF00xu-28">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-31" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;EmbeddingServer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;根据用户指令采取相应的代理&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-32" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="tLU6vOamgJZOyBqF00xu-31">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-34" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Scheduler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;Agent的调度服务&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-35" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="tLU6vOamgJZOyBqF00xu-34">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tLU6vOamgJZOyBqF00xu-14" target="tLU6vOamgJZOyBqF00xu-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="175" as="sourcePoint" />
+            <mxPoint x="280" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-37" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;PromptManage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: justify;&quot; class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-family: 微软雅黑; font-size: 10.5pt;&quot;&gt;功能：&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 14px;&quot;&gt;&lt;font face=&quot;微软雅黑&quot;&gt;根据用户指令采取相应的代理&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tLU6vOamgJZOyBqF00xu-38" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="tLU6vOamgJZOyBqF00xu-37">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
